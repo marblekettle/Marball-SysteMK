@@ -38,6 +38,7 @@ Class c_Stack
 		For i = 1 To a_size - 1
 			temp(i) = a_content(i - 1)
 		Next
+		temp(0) = cont
 		a_content = temp
 	End Sub
 
